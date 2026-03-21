@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./aos/aos.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./bootstrap-icons/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./aos/aos.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top border-bottom">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">AMENA HABIBI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-SupportedConten"
+          aria-controls="navbar-SupportedConten" aria-expanded="false" aria-label="toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-SupportedConten">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#contact"><i class="bi bi-envelope me-1"></i>Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#project"><i class="bi bi-kanban me-1"></i>Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience"><i
+                  class="bi bi-briefcase me-1"></i>Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about"><i class="bi bi-person me-1"></i>About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#home"><i class="bi bi-house me-1"></i>Home</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+  <section class="hero-section" data-aos="fade-up" id="home">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <div class="creativity">CREATIVITY WEB DISIGNER</div>
+          <h1 class="title" data-aos="fade-up">Hi, I'm Amena Habibi,</h1>
+          <p class="secondary-text">a passionate Front-End Developer creating modern and responsive websites.</p>
+          <!-- stats row (3 columns) -->
+          <div class="row g-3 mb-4">
+            <div class="col-sm-4">
+              <div class="card" data-aos="fade-right">
+                <div class="stat-number">20</div>
+                <div class="stat-label">Project Completed</div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card" data-aos="fade-right">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card" data-aos="fade-right">
+                <div class="stat-number">20</div>
+                <div class="stat-label">Happy Clients</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- action buttons + social -->
+          <div class="d-flex flex-wrap align-items-center gap-3 mt-4">
+            <a href="#getintouch" class="btn btn-primary"><i class="fa fa-envelope me-1"></i>Get In Touch</a>
+            <a href="excellent2-cv.pdf" download class="btn btn-custom-outline"><i
+                class="fa fa-download me-1"></i>Resume</a>
+
+            <div class="ms-lg-auto d-flex" data-aos="fade-left">
+              <a href="https://www.facebook.com/Habibi Amena" class="icon-circle" target="_blank"><i
+                  class="fa fa-facebook-f"></i></a>
+              <a href="https://www.x.com/amena_habibi" class="icon-circle" target="_blank"><i
+                  class="fa fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/amena habibi" class="icon-circle" target="_blank"><i
+                  class="fa fa-linkedin"></i></a>
+              <a href="https://www.github.com/amenahabibi" class="icon-circle" target="_blank"><i
+                  class="fa fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- right side: optional placeholder for a photo / abstract decoration (matching image vibe) -->
+        <div class="col-12 col-lg-5 text-center">
+
+          <!-- subtle decoration: a simple shape to echo the design (no person photo given) -->
+          <div
+            style="background: #e9edf2; width: 300px; max-width: 300px; border-radius: 40% 60% 30% 70% / 50% 40% 60% 50%; margin: 0 auto; border: 6px solid white; box-shadow: 0 20px 30px rgba(0,0,0,0.04); margin-top:30px;"
+            data-aos="fade-right">
+            <img class="profile-image" src="./img/DSC034712.jpg" alt="profile" data-aos="fade-right">
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="about-section" data-aos="fade-up" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <span class="about">ABOUT ME</span>
+          <h2 class="about-title mb-3"><img src="./img/developer.png" alt="developer" class="img-fluid me-2 mb-2"
+              width="40">Hi, I'm Habibi – a Creative Developer</h2>
+          <p class="text-muted" style="max-width: 650px; font-size: 1.1rem;">
+            Skilled in creating responsive, interactive, and visually appealing website using <span style="color: #1A2CA3;">HTML, CSS, and JavaScrip.</span> 
+            <br>
+            Completed Several web projects including portfolio sites, interactive forms, and landing pages.
+          </p>
+        </div>
+      </div>
+      <div class="row g-4 mt-3">
+        <div class="col-md-4">
+          <div class="service-card" data-aos="fade-left">
+            <div class="service-icon"><i class="bi bi-palette fs-2 "></i></div>
+            <h3 class="service-title">Graphic Design</h3>
+            <p class="service-desc">Create visually appealing graphics and layouts for web and print.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card" data-aos="fade-left">
+            <div class="service-icon"><i class="bi bi-code-slash fs-2"></i></div>
+            <h3 class="service-title">CMS builder & Web design</h3>
+            <p class="service-desc">Focus on creating user-friendly interfaces that look clean and modern.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card" data-aos="fade-left">
+            <div class="service-icon"><i class="bi bi-javascript fs-2"></i></div>
+            <h3 class="service-title">Javascript</h3>
+            <p class="service-desc">Develop interactive and dynamic web applications using JavaScrip.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="signature-block mt-5">
+        <div class="row mb-4">
+          <div class="amenia-name">Learn to CodeToInspire</div>
+          <div class="col-1 ps-5">
+            <h6 class="year" data-aos="zoom-in">2025</h6>
+          </div>
+          <div class="col-11">
+            <p class="desc1 text-muted" data-aos="fade-right">Studied Graphic Design on CodeToInspire, focusing on
+              creating clean and creative visual using tools like Photoshop, Illustrator.</p>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-1 ps-5">
+            <h6 class="year" data-aos="zoom-in">2026</h6>
+          </div>
+          <div class="col-11">
+            <p class="desc1 text-muted" data-aos="fade-right">Learned CMS builder & Web design Development on
+              CodeToInspire, focusing on building responsive and interactive websites using HTML, CSS, and bootstrap.
+            </p>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-1 ps-5">
+            <h6 class="year" data-aos="zoom-in">2026</h6>
+          </div>
+          <div class="col-11">
+            <p class="desc1 text-muted" data-aos="fade-right">Studied JavaScrip on CodeToInspire, developing skills to
+              create dynamic and interactive web applications using Es6+, DOM manipulation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about-section fade-section bg-light" style="padding: 2rem 0; background-color: #f8fafc">
+    <div class="container">
+      <div class="row g-3">
+
+        <!-- LEFT SIDE -->
+        <div class="col-12 col-lg-12 fade-section">
+          <div class="row g-4">
+            <span class="title-experience mb-3 text-center">Professional Expertise</span>
+
+            <!-- Frontend -->
+            <div class="col-md-4">
+              <div class="skill-card p-4 mb-4" data-aos="zoom-in">
+                <h5 class="mb-3 service-title"><i class="bi bi-palette fs-2 me-2 service-icon"></i>Graphic Design</h5>
+
+                <div class="skill">
+                  <div class="d-flex justify-content-between">
+                    <span>Canvas</span>
+                    <span>78%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar html-bar" style="width:78%"></div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="d-flex justify-content-between">
+                    <span>Photoshop</span>
+                    <span>75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar html-bar" style="width:75%"></div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="d-flex justify-content-between">
+                    <span>Illustrator</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar html-bar" style="width:72%"></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="skill-card p-4 mb-4" data-aos="zoom-in">
+                <h5 class="mb-3 service-title"><i class="bi bi-code-slash fs-2 me-2 service-icon"></i>Frontend Dev</h5>
+
+                <div class="skill">
+                  <div class="d-flex justify-content-between">
+                    <span>Html</span>
+                    <span>78%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar html-bar" style="width:78%"></div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="d-flex justify-content-between">
+                    <span>Css</span>
+                    <span>75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar html-bar" style="width:75%"></div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="d-flex justify-content-between">
+                    <span>Bootstrape</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar html-bar" style="width:72%"></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="skill-card p-4 mb-4" data-aos="zoom-in">
+                <h5 class="mb-3 service-title"><i class="bi bi-javascript fs-2 me-2 service-icon"></i>JavaScript</h5>
+
+                <div class="skill">
+                  <div class="d-flex justify-content-between">
+                    <span>DOM</span>
+                    <span>78%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar html-bar" style="width:78%"></div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="d-flex justify-content-between">
+                    <span>ES6</span>
+                    <span>75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar html-bar" style="width:75%"></div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="d-flex justify-content-between">
+                    <span>BOM</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar html-bar" style="width:72%"></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+
+
+
+      </div>
+
+    </div>
+    <section class="container" id="experience">
+      <div class="row shadow my-4 p-2 bg-white rounded-lg">
+        <div class="col-md-6">
+          <div class="py-2">
+            <h5 class="tit">Education</h5>
+          </div>
+          <div class="timeline" data-aos="zoom-in">
+            <div class="timeline-box" data-aos="fade-right">
+              <div class="timeline-icon">
+                <i class="bi bi-mortarboard"></i>
+              </div>
+              <div class="timeline-content">
+                <h4>High School</h4>
+                <hr class="bg-info">
+                <p>I completed my secondary education in Zargona High School.</p>
+                <p class="text-info">2010 - 2012 Zargona High School</p>
+              </div>
+            </div>
+            <div class="timeline-box" data-aos="fade-right">
+              <div class="timeline-icon">
+                <i class="bi bi-mortarboard"></i>
+              </div>
+              <div class="timeline-content">
+                <h4>Bachelor</h4>
+                <hr class="bg-info">
+                <p>I studied Computer Science at Gharjistan University.Core courses included Programming, data
+                  Structures, web design, and networking basics.
+                  My final project was designing an e-commerce website using HTML, CSS, JavaScrip </p>
+                <p class="text-info">2016 - 2019 Gharjistan University</p>
+              </div>
+            </div>
+            <div class="timeline-box" data-aos="fade-right">
+              <div class="timeline-icon">
+                <i class="bi bi-mortarboard"></i>
+              </div>
+              <div class="timeline-content">
+                <h4>Graduation or Certification</h4>
+                <hr class="bg-info">
+                <p>Completed specialized training and earned certifications in IT support and networking, including
+                  Helpdesk Fundemental, CompTIA Network +,
+                  and Cisco Certified Network Associate(CCNA).</p>
+                <p class="text-info">2024 - 2025 Helpdesk, Network +, CCNA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="py-2">
+            <h5 class="tit">Experience</h5>
+          </div>
+          <div class="timeline" data-aos="zoom-in">
+            <div class="timeline-box" data-aos="fade-left">
+              <div class="timeline-icon">
+                <i class="bi bi-briefcase"></i>
+              </div>
+              <div class="timeline-content">
+                <h4>Website Manager</h4>
+                <hr class="bg-info">
+                <p>I worked as a website manager at the Ministry of Economy.Responsibilities included content
+                  updates,troubleshooting technical issues,
+                  and improving site performance.</p>
+                <p class="text-info">2020 - 2024 Ministry of Economy</p>
+              </div>
+            </div>
+            <div class="timeline-box" data-aos="fade-left">
+              <div class="timeline-icon">
+                <i class="bi bi-briefcase"></i>
+              </div>
+              <div class="timeline-content">
+                <h4>Teaching ICDL</h4>
+                <hr class="bg-info">
+                <p>I taught the International Computer Driving License(ICDL) course at "Couser Danish course".My duties
+                  included traning on windows, internet, word, Excel, PowerPoint.</p>
+                <p class="text-info">2024 - 2025 Couser Danish Course</p>
+              </div>
+            </div>
+            <div class="timeline-box" data-aos="fade-left">
+              <div class="timeline-icon">
+                <i class="bi bi-briefcase"></i>
+              </div>
+              <div class="timeline-content">
+                <h4>Web Design Builder</h4>
+                <hr class="bg-info">
+                <p>I designed and implemented website using HTML, CSS, Bootsrap, and JavaScrip.the focus was on
+                  responsive design and optimizing user experience.</p>
+                <p class="text-info">2025 - 2026 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container" id="project">
+      <div class="row shadow my-4 bg-white rounded-lg p-2" data-aos="fade-up">
+        <h5 class="text-center tit2">Project Graphic Designer</h5>
+        <div class="col-md-6 col-lg-3">
+          <img src="./img/brochore_mockup.jpg" alt="brochore1" class="img-fluid gallery-img" data-bs-toggle="modal"
+            data-bs-target="#imageModal1">
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <img src="./img/brochore_mockup2.jpg" alt="brochore2" class="img-fluid gallery-img" data-bs-toggle="modal"
+            data-bs-target="#imageModal2">
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <img src="./img/cardvisit_mockup.jpg" alt="cardvisit" class="img-fluid gallery-img" data-bs-toggle="modal"
+            data-bs-target="#imageModal3">
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <img src="./img/Flayer_mockup.jpg" alt="flayer" class="img-fluid gallery-img" data-bs-toggle="modal"
+            data-bs-target="#imageModal4">
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <img src="./img/logo_mockup.jpg" alt="logo" class="img-fluid gallery-img" data-bs-toggle="modal"
+            data-bs-target="#imageModal5">
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <img src="./img/Amena_Habibi(05_Mockup).jpg" alt="mocheup1" class="img-fluid gallery-img" data-bs-toggle="modal"
+            data-bs-target="#imageModal6">
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <img src="./img/Amena_Habibi(05_Mockupback).jpg" alt="mocheup2" class="img-fluid gallery-img" data-bs-toggle="modal"
+            data-bs-target="#imageModal7">
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <img src="./img/Amena_Habibi_poster.jpg" alt="poster" class="img-fluid gallery-img" data-bs-toggle="modal"
+            data-bs-target="#imageModal8">
+        </div>
+      </div>
+    </section>
+    <!-- ========Model==========-->
+    <div class="modal fade" id="imageModal1" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-transpatent border-0">
+          <img class="img-fluid" src="./img/brochore_mockup.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="imageModal2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-transpatent border-0">
+          <img class="img-fluid" src="./img/brochore_mockup2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="imageModal3" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-transpatent border-0">
+          <img class="img-fluid" src="./img/cardvisit_mockup.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="imageModal4" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-transpatent border-0">
+          <img class="img-fluid" src="./img/Flayer_mockup.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="imageModal5" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-transpatent border-0">
+          <img class="img-fluid" src="./img/logo_mockup.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="imageModal6" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-transpatent border-0">
+          <img class="img-fluid" src="./img/Amena_Habibi(05_Mockup).jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="imageModal7" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-transpatent border-0">
+          <img class="img-fluid" src="./img/Amena_Habibi(05_Mockupback).jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="imageModal8" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-transpatent border-0">
+          <img class="img-fluid" src="./img/Amena_Habibi_poster.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <section class="container my-5">
+      <h2 class="title text-center mb-4">Testimonials</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card p-3 shadow-sm text-center" data-aos="fade-right">
+            <img src="./img/woman-profile1.jpg" class="rounded-circle mx-auto mb-3" width="80" alt="womanprofile1">
+            <h6>Sara Ahmadi</h6>
+            <small class="text-muted">Graphic Designer</small>
+            <p class="mt-2">Amena is Creative designer. Her work is clean and Professional. </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3 shadow-sm text-center" data-aos="fade-right">
+            <img src="./img/woman-profile.png" class="rounded-circle mx-auto mb-3" width="80" alt="womanprofile2">
+            <h6>Maryem Noori</h6>
+            <small class="text-muted">Web developer</small>
+            <p class="mt-2">She has strong skills in HTML, CSS and JavaScrip. Her designs are responsive. </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3 shadow-sm text-center" data-aos="fade-right">
+            <img src="./img/woman-profile.png" class="rounded-circle mx-auto mb-3" width="80" alt="womanprofile3">
+            <h6>Nazanin Mohammadi</h6>
+            <small class="text-muted">Web developer</small>
+            <p class="mt-2">She has strong skills in HTML, CSS and JavaScrip. Her designs are responsive. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container fade-section my-5" id="contact">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="shadow p-5 text-white rounded-5 h-100" data-aos="fade-right" style="background-color:  #1A2CA3;">
+            <h4>Contact Info</h4>
+            <p>Have a question or proposal? Let's connect!</p>
+            <p class="desc"><i class="bi bi-geo-alt icon-circle"></i>Location : Kabul, Afghanistan</p>
+            <p class="desc"><i class="bi bi-telephone icon-circle"></i>Phone : +93795515902</p>
+            <p class="desc"><i class="bi bi-envelope icon-circle"></i>Email : amenahabibi69@gmail.com</p>
+            <hr>
+            <a href="https://www.facebook.com/Habibi Amena" class="icon-circle" target="_blank"><i
+                class="fa fa-facebook-f"></i></a>
+            <a href="https://www.x.com/amena_habibi" class="icon-circle" target="_blank"><i
+                class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/amena habibi" class="icon-circle" target="_blank"><i
+                class="fa fa-linkedin"></i></a>
+            <a href="https://www.github.com/amenahabibi" class="icon-circle" target="_blank"><i
+                class="fa fa-github"></i></a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="shadow p-4 bg-white rounded-5 h-100" data-aos="fade-left" id="getintouch">
+            <h4>Get In Touch</h4>
+            <p>Have project or idea? Let's get in touch!</p>
+            <form action="htpps://example.com/send" method="post">
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="mb-3">
+                <textarea name="" id="" class="form-control" rows="6" cols="65" placeholder="Your Message"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100 send">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <footer class="Footer py-4 border-top" data-aos="zoom-in">
+      <div class="container-fluid text-center small-text">
+        <span class="mx-2"><i class="fa fa-facebook-f"></i></span>
+        <span class="mx-2"><i class="fa fa-twitter"></i></span>
+        <span class="mx-2"><i class="fa fa-linkedin"></i></span>
+        <span class="mx-2"><i class="fa fa-github"></i></span>
+        <p class="mt-2 mb-0">© 2026 Amena Habibi – responsive portfolio with Bootstrap
+      </div>
+    </footer>
+
+    <script>
+      AOS.init({
+        duration: 1500,
+        once: true
+      });
+    </script>
+
+</body>
+
+</html>
